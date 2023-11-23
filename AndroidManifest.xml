@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.landroo.textreader"
+    android:versionCode="10"
+    android:versionName="1.10" >
+
+	<uses-sdk android:minSdkVersion="7"/>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+		android:allowBackup="true" >
+        <activity 
+            android:name=".AndroidExplorer"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".TextReaderActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+	    	<intent-filter >
+
+	            <category android:name="android.intent.category.DEFAULT" />
+	            <action android:name="android.intent.action.VIEW" />
+	            <category android:name="android.intent.category.BROWSABLE" />
+	            <data android:scheme="file" />
+        		<data android:mimeType="*/*" />
+        		<data android:pathPattern=".*\\.epub" />
+        		<data android:pathPattern=".*\\..*\\.epub"/>
+            	<data android:pathPattern=".*\\..*\\..*\\.epub"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\.epub"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.epub"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.epub"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.epub"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.epub"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.epub"/>
+        		<data android:pathPattern=".*\\.txt" />
+        		<data android:pathPattern=".*\\..*\\.txt"/>
+            	<data android:pathPattern=".*\\..*\\..*\\.txt"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\.txt"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.txt"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.txt"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.txt"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.txt"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.txt"/>
+        		<data android:pathPattern=".*\\.prc" />
+        		<data android:pathPattern=".*\\..*\\.prc"/>
+            	<data android:pathPattern=".*\\..*\\..*\\.prc"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\.prc"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.prc"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.prc"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.prc"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.prc"/>
+            	<data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.prc"/>
+            			<data android:host="*" />
+	        </intent-filter>
+        </activity>
+        
+        <activity android:name=".SettingsScreen" 
+			android:configChanges="keyboardHidden|orientation" 
+			android:launchMode="singleTop"
+			android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+		</activity>
+		
+		<activity
+            android:name="org.landroo.textreader.PictureViewer"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        
+		<activity android:name="com.tapfortap.TapForTapActivity"/>
+		
+		<service android:name="org.landroo.textservice.TextService"/>
+		
+    </application>
+</manifest>
