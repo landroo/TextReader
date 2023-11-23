@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="display_category"
+        android:title="Megjelenítés" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/colornames"
+            android:entryValues="@array/colorvalues"
+            android:key="colorScheme"
+            android:summary="Állítsa be a háttér és a szöveg színét."
+            android:title="Színbeállítás" >
+        </ListPreference>
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/backgroundnames"
+            android:entryValues="@array/backgroundvalues"
+            android:key="backGround"
+            android:summary="Állítsa be a háttér mintázatát."
+            android:title="Háttérbeállítás" >
+        </ListPreference>
+        <ListPreference
+            android:defaultValue="16"
+            android:entries="@array/fontsizenames"
+            android:entryValues="@array/fontsizevalues"
+            android:key="fontSize"
+            android:summary="Állítsa be a betűméretet."
+            android:title="Betűméret" >
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="zoom_mode"
+            android:summary="Egyszerű mód engedélyezése.(Újraindítást igényel)"
+            android:title="Egyszerű mód" />
+
+        <ListPreference
+            android:defaultValue="8000"
+            android:entries="@array/pagesizenames"
+            android:entryValues="@array/pagesizevalues"
+            android:key="pageSize"
+            android:summary="Állítsa be az oldalméretet."
+            android:title="Oldalméret" >
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="dictionary_category"
+        android:title="Szótár" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_dictionary"
+            android:summary="Szótár engedélyezése"
+            android:title="Szótár használat" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/dictnames"
+            android:entryValues="@array/dictvalues"
+            android:key="dictLang"
+            android:summary="Válasszon szótárat."
+            android:title="Szótár" >
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="inForegin"
+            android:summary="Keresés az idegen nyelvben."
+            android:title="Idegen nyelv" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="application_category"
+        android:title="Alkalmazás" >
+        <Preference
+            android:key="cleanButton"
+            android:summary="Törli a megtekintett könyvek adatit"
+            android:title="Könyv adatok törlése" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/saynames"
+            android:entryValues="@array/sayvalues"
+            android:key="sayLang"
+            android:summary="Ezen a nyelven olvas fel a program."
+            android:title="Felovasási nyelv" >
+        </ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

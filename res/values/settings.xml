@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="colornames">
+        <item>Texture</item>
+        <item>Black-white</item>
+        <item>White-black</item>
+        <item>Gray-black</item>
+        <item>Gray-white</item>
+        <item>Black-gray</item>
+    </string-array>
+    <string-array name="colorvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="backgroundnames">
+        <item>Wall</item>
+        <item>Paper 1</item>
+        <item>Paper 2</item>
+        <item>Paper 3</item>
+        <item>Paper 4</item>
+        <item>Stone 1</item>
+        <item>Stone 2</item>
+        <item>Stone 3</item>
+        <item>Stone 4</item>
+    </string-array>
+    <string-array name="backgroundvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="fontsizenames">
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>32</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="fontsizevalues">
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>32</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="pagesizenames">
+        <item>Small</item>
+        <item>Middle</item>
+        <item>Big</item>
+    </string-array>
+    <string-array name="pagesizevalues">
+        <item>2000</item>
+        <item>4000</item>
+        <item>8000</item>
+    </string-array>
+    <string-array name="dictnames">
+        <item>English-Hungarian big</item>
+        <item>English-Hungarian mini</item>
+        <item>Spanish-Hungarian mini</item>
+        <item>French-Hungarian big</item>
+        <item>German-Hungarian mini</item>
+    </string-array>
+    <string-array name="dictvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="saynames">
+        <item>Disabled</item>
+        <item>Default</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+    </string-array>
+    <string-array name="sayvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

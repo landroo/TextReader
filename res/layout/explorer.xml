@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFCC99"
+    android:orientation="vertical" >
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:background="#FFFFCC99"
+        android:gravity="center_vertical"
+        android:spacing="16dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/path"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/file_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="40"
+        android:background="#FFFFCC99"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000" />
+
+    <com.tapfortap.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
+
+</LinearLayout>

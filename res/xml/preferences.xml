@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="display_category"
+        android:title="Display" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/colornames"
+            android:entryValues="@array/colorvalues"
+            android:key="colorScheme"
+            android:summary="Set the color of text and background."
+            android:title="Color" >
+        </ListPreference>
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/backgroundnames"
+            android:entryValues="@array/backgroundvalues"
+            android:key="backGround"
+            android:summary="Set the backgroud texture of text."
+            android:title="Background" >
+        </ListPreference>
+        <ListPreference
+            android:defaultValue="16"
+            android:entries="@array/fontsizenames"
+            android:entryValues="@array/fontsizevalues"
+            android:key="fontSize"
+            android:summary="Set the size of font."
+            android:title="FontSize" >
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="zoom_mode"
+            android:summary="Enable simple mode.(Restart required)"
+            android:title="Simple mode" />
+
+        <ListPreference
+            android:defaultValue="8000"
+            android:entries="@array/pagesizenames"
+            android:entryValues="@array/pagesizevalues"
+            android:key="pageSize"
+            android:summary="Set the size of the page."
+            android:title="Page size" >
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="dictionary_category"
+        android:title="Dictionary" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable_dictionary"
+            android:summary="Enable dictionary."
+            android:title="Dictionary" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/dictnames"
+            android:entryValues="@array/dictvalues"
+            android:key="dictLang"
+            android:summary="Choice a dictionary."
+            android:title="Languages" >
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="inForegin"
+            android:summary="Looking the word in the foreign language."
+            android:title="Foreign language" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="application_category"
+        android:title="Application" >
+        <Preference
+            android:key="cleanButton"
+            android:summary="Cleanup stored book data."
+            android:title="Celanup data" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/saynames"
+            android:entryValues="@array/sayvalues"
+            android:key="sayLang"
+            android:summary="The language of text to speech."
+            android:title="Readning language" >
+        </ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

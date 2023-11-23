@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string-array name="colornames">
+	    <item>Háttérkép</item>
+		<item>Fekete-fehér</item>
+		<item>Fehér-fekete</item>
+		<item>Szürke-fekete</item>
+		<item>Szürke-fehér</item>
+		<item>Fekete-szürke</item>
+	</string-array>
+	<string-array name="colorvalues">
+	    <item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+    <string-array name="backgroundnames">
+        <item>Fal</item>
+        <item>Papír 1</item>
+        <item>Papír 2</item>
+        <item>Papír 3</item>
+        <item>Papír 4</item>
+        <item>Kő 1</item>
+        <item>Kő 2</item>
+        <item>Kő 3</item>
+        <item>Kő 4</item>
+    </string-array>
+    <string-array name="backgroundvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>	
+	<string-array name="fontsizenames">
+		<item>16</item>
+		<item>20</item>
+		<item>24</item>
+		<item>32</item>
+		<item>40</item>
+	</string-array>
+	<string-array name="fontsizevalues">
+		<item>16</item>
+		<item>20</item>
+		<item>24</item>
+		<item>32</item>
+		<item>40</item>
+	</string-array>
+	
+	<string-array name="pagesizenames">
+		<item>Kicsi</item>
+		<item>Közepes</item>
+		<item>Nagy</item>
+	</string-array>
+	<string-array name="pagesizevalues">
+		<item>2000</item>
+		<item>4000</item>
+		<item>8000</item>
+	</string-array>
+
+	<string-array name="dictnames">
+		<item>Angol-Magyar nagy</item>
+		<item>Angol-Magyar mini</item>
+		<item>Spanyol-Magyar mini</item>
+		<item>Francia-Magyar nagy</item>
+		<item>Német-Magyar mini</item>
+	</string-array>
+	<string-array name="dictvalues">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+	
+	<string-array name="saynames">
+	    <item>Kikapcsolt</item>
+	    <item>Alapérték</item>
+		<item>Angol</item>
+		<item>Francia</item>
+		<item>Német</item>
+	</string-array>
+	<string-array name="sayvalues">
+	    <item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+		
+</resources>
+

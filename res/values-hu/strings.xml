@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TextReaderActivity!</string>
+    <string name="app_name">szöveg Olvasó</string>
+    <string name="setup">Beállítások</string>
+    <string name="todo">TODO</string>
+    <string name="textImageView">Szöveg</string>
+    <string name="prew">Előző</string> 
+    <string name="next">Következő</string>
+    <string name="speak">Felolvas</string> 
+    <string name="find">Keresés</string>
+    <string name="fileerror">Nem támogatott állomány!</string>    
+    <string name="notfound">Nincs találat!</string>
+    <string name="notinitialized">A szótár nincs előkészítve!</string>
+    <string name="found"> találat van!</string>
+    <string name="finword">A keresett szó:</string>
+    <string name="findbutt">Keresés</string>
+    <string name="cancel">Mégse</string>
+    <string name="finding">Szó keresése</string>
+    <string name="exit">Kilépés</string>
+    <string name="refresh">Frissítés</string>
+    <string name="content">Tartalom</string>
+    <string name="saylangerror">Nincs beállítva nyelv!</string>
+    <string name="deletebook">Törli a könyv adatokat?</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="thumbsave">Előkép mentve!</string>
+    <string name="memoryerror">Kérem válasszon kisebb oldal méretet!</string>
+    
+</resources>

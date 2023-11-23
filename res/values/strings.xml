@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TextReaderActivity!</string>
+    <string name="app_name">textReader</string>
+    <string name="setup">Settings</string>
+    <string name="todo">TODO</string>
+    <string name="textImageView">Text</string>
+    <string name="prew">Previous</string>
+    <string name="next">Next</string>
+    <string name="speak">Speech</string>
+    <string name="find">Find</string>
+    <string name="fileerror">Not supported file!</string>
+    <string name="notfound">Not found!</string>
+    <string name="notinitialized">Dictionary not initialized!</string>
+    <string name="found"> found!</string>
+    <string name="finword">Word:</string>
+    <string name="findbutt">Find</string>
+    <string name="cancel">Cancel</string>
+    <string name="finding">Find a word.</string>
+    <string name="exit">Exit</string>
+    <string name="refresh">Refresh</string>
+    <string name="content">Content</string>
+    <string name="saylangerror">Language not available!</string>
+    <string name="deletebook">Remove this book data?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="thumbsave">Thumbnail saved!</string>
+	<string name="memoryerror">Please choice smaller page size!</string>
+	
+</resources>
